@@ -12,7 +12,7 @@ public:
 	int 
 	*****
 	
-}
+};
 
 int main() {
 	ostream_iterator<int> it(cout, "\n");
