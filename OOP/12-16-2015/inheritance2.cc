@@ -7,7 +7,7 @@ class Shape
 	
 public:
 
-	virtual void draw() const = 0; // прави класът абстрактен, т.е. не могат са се правят обeкти от него
+	virtual void draw() const = 0; // прави класа абстрактен, т.е. не могат са се правят обeкти от него
 
 };
 
@@ -34,7 +34,7 @@ int main()
 	Circle c1(0, 0, 2);
 	Shape* psh = &c1;
 	
-	psh -> draw(); // draw() e на Circle
+	psh -> draw(); // draw() e метод на Circle
 
 	return 0;
 }
