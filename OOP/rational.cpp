@@ -20,9 +20,7 @@ long gcd (long n, long m)
 		if (n % gcd == 0 && m % gcd == 0)
 		{
 			return gcd;
-		} 
-		else 
-		{
+		} else {
 			gcd--;
 		}
 	}
@@ -31,11 +29,13 @@ long gcd (long n, long m)
 class RationalException
 {
 	string meassage_;
+	
 	public:
-		RationalException(string message)
-		{
-			message_ = message;
-		}
+		
+	RationalException(string message)
+	{
+		message_ = message;
+	}
 };
 
 class Rational 
@@ -43,7 +43,7 @@ class Rational
 	long numerator_;
 	long denominator_;
 	
-public:
+	public:
 
 	Rational(long n, long d)
 	{
@@ -89,13 +89,17 @@ int main()
 {
 	Rational r1(1, 3);
 	Rational r2(2, 3);
+	
 	r1.plus(r2);
 	r1.print();
+	
 	Rational r3(3, 5);
+	
 	r2.plus(r3);
 	r2.print();
 	
 	Rational r4 (12, 15);
+	
 	r3.plus(r4);
 	r3.print();
 
