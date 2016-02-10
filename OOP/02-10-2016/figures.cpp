@@ -1,5 +1,15 @@
 /*
-	shte ima domashni
+	Homework:
+
+	1. Ellipse
+	2. Pravougulnik
+	3. Line
+	4. Polygon
+	5. Polyline
+	6. Path
+
+	Kachvat se v github.com/egotsev v repoto elsys-homeworks
+	Deadline: 16.02.2016 17:00
 */
 
 #include <iostream>
