@@ -10,6 +10,7 @@
 
 	Kachvat se v github.com/egotsev v repoto elsys-homeworks
 	Deadline: 16.02.2016 17:00
+	Place: repoto/11a/{number_in_class}/01
 */
 
 #include <iostream>
